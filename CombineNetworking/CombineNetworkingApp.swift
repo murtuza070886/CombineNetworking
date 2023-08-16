@@ -2,7 +2,7 @@
 //  CombineNetworkingApp.swift
 //  CombineNetworking
 //
-//  Created by Abdul Fattah on 16/08/23.
+//  Created by Mohammad Murtuza on 16/08/23.
 //
 
 import SwiftUI
