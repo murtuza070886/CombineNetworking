@@ -8,6 +8,7 @@
 import Foundation
 import Combine
 
+//MARK: - Product model
 struct Product:Codable,Identifiable {
     var id:Int
     var title:String

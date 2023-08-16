@@ -27,7 +27,7 @@ struct ProductLisView:View {
     var body: some View {
         VStack {
             HStack {
-                StockImageView(imageURL: product.thumbnail?.absoluteString ?? "")
+                ProductImageView(imageURL: product.thumbnail?.absoluteString ?? "")
                     .frame(width: 60 , height: 60)
                     .clipShape(Circle())
                 VStack(alignment:.leading) {
@@ -45,7 +45,7 @@ struct ProductLisView:View {
     }
 }
 
-struct StockImageView: View {
+struct ProductImageView: View {
     @StateObject var imageObserver = ImageObserver()
     var imageURL:String
     init(imageURL: String) {
